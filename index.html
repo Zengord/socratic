@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Сократика</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231108234437">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo"><img src="img/logo.svg" alt="image logo"></div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="row">
+				<div class="row__container">
+					<div class="row__images"><img src="img/main.svg" alt="main-image"></div>
+					<div class="row__items">
+						<form action="" class="form">
+							<div class="form__title">01 Заполни форму</div>
+							<div class="form__wrapper">
+								<div class="form__lesson-topic">
+									<label for="lesson-topic">Тема урока</label>
+									<input type="text" placeholder="Напиши что-то конкретное" autocomplete="off" id="lesson-topic" class="form__input">
+									<button type="button" class="form__input-clear"></button>
+								</div>
+								<div class="form__select-wrap">
+									<label for="select">Класс</label>
+									<select name="form[]" id="select" class="form__select">
+										<option value="1" selected>1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+							</div>
+							<div class="form__hint">
+								<span>Генетика</span>
+								<span>Анатомия человека</span>
+								<span>Вулканы</span>
+								<span>Зимние виды спорта</span>
+								<span>Радуга</span>
+								<span>Индийская культура</span>
+								<span hidden>Радуга</span>
+								<span hidden>Пеший туризм</span>
+								<span hidden>Философия</span>
+								<span hidden>Вселенная</span>
+								<span hidden>Здоровые привычки</span>
+								<span hidden>Бабочки</span>
+								<span hidden>Белые медведи</span>
+								<span hidden>Экономика</span>
+								<span hidden>Финансовая грамотность</span>
+								<span hidden>Фотосинтез</span>
+							</div>
+							<button type="button" class="form__show-more">Показать больше вариантов</button>
+							<div class="form__box">
+								<label for="purpose">Цель урока</label>
+								<textarea type="text" placeholder="Напиши свою учебную цель" id="purpose" class="form__typing-text"></textarea>
+							</div>
+							<div class="form__count">
+								<div></div>
+								<span>0 / 200</span>
+							</div>
+							<div class="form__buttons">
+								<button type="button" class="form__button-back">Назад</button>
+								<button type="button" class="form__button-next">Следующий шаг</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20231108234437"></script>
+</body>
+
+</html>
